@@ -1,0 +1,90 @@
+﻿02/04/22 
+Speaker: Linda Zhou Baypiggies January 2022: Time Series Anomaly Detection
+
+https://www.youtube.com/watch?v=I58aW_w1dwk
+
+
+* Intro:
+   * Time series data is pervasive in various fields
+   * Detecting anomaly allows you to find some answer to a particular event
+   * Interested in understanding how an unusual peak or cliff is generated  
+* Use cases: 
+   * Financial Industry
+      * Fraud detection (e.g. cc transactions, insurance claims)
+   * IoT, IT
+      * Failure detection (e.g. machinery, infrastructure, software)
+      * Root cause analysis (where did the failure come from?)
+   * Generic ML
+      * Data cleansing (e.g. remove outliers)
+   * There are other use cases, these are the ones the speaker has seen used most often in the field
+* Nomenclature:
+   * Univariate:
+      * 1 metric time series → cpu usage over time
+   * Multivariate:
+      * Multiple metrics time series → cpu usage, memory, etc
+   * Trend:
+      * An upward or downward tendency in the data
+   * Seasonality
+      * Recurring pattern at regular frequencies → Holidays, etc
+   * Drift:
+      * As opposed to a trend, a drift is a sudden baseline variation
+   * Change Point: 
+      * Changes between segments
+   * Anomaly / Outlier: 
+      * Something that deviates from what is standard, normal, or expected
+      * Names differ in industry, can mean the same in academia
+         * Anomaly → something went wrong
+         * Outlier → something needs to be monitored further
+   * Stationary Time Series:
+      * Time series does not hold trend or seasonality characteristics
+* Value types:
+   * Can be numerical or strings (computer logs)
+
+
+
+
+
+
+
+
+
+
+* Anomaly Detection and Forecasting
+   * Both: Analyzing known data points
+   * Anomaly Detection
+      * Data points deviating from what is expected
+      * Common Question: What happened that doesn't usually happen?
+      * Knowing what is wrong
+   * Forecasting
+      * Data points deviating from established pattern of data distribution
+      * Common Question: If everything continues to happen as expected, what happens in the future?
+      * Knowing what is right
+* Frequently used Frameworks for Anomaly Detection:
+   * SciKit Learn (5 outlier detection algorithms ready to use)
+      * Conventions are not standard to industry (-1,1) vs (0,1)
+      * -1 being the anomaly, whereas 1 is the anomaly in industry
+   * PyOD (module only for anomaly detection, no other ML - specialized)
+   * PyCaret (built ontop of PyOD)
+      * Most different from the 3 in terms of the syntax
+*  Isolation Forest
+   * One of the earliest anomaly detection algorithms
+   * IForest recursively partitions the sample by randomly selecting an attribute and then randomly selecting a split value for the attribute, between the minimum and maximum values, to create a binary tree
+* Frequently used Frameworks for Forecasting:
+   * Statistical Methods:
+      * Statsmodel
+         * ARIMA, SARIMA, Auto ARIMA, …
+   * Deep Learning Methods:
+      * Pytorch, TensorFlow
+         * LSTM, …
+   * Decomposable Model
+      * Facebook Prophet
+
+
+* Model Deployment Considerations
+   * Streaming
+      * CPU/Memory
+      * Latency
+   * On-demand
+      * Latency
+   * Batch
+      * Efficiency

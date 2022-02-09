@@ -16,7 +16,7 @@ Part of the Homebrew Learning Club
 
 # In Progress 
 
-
+- [ ] @l upload books/references to `references` folder
 
 # Done 
 

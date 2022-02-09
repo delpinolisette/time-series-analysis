@@ -17,8 +17,11 @@ Part of the Homebrew Learning Club
 # In Progress 
 
 
+
 # Done 
+
 
 # For the Future 
 
-
+- [ ] @l notes on cool properties of random variables/advanced probability theory
+- [ ] @a @l read/work/talk through [this](https://ahmetbeyefendi.com/wp-content/uploads/2020/07/Algorithmic-Trading-and-Direct-Market-Access.pdf)

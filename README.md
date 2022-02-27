@@ -9,17 +9,17 @@ Part of the Homebrew Learning Club
 # TODO
 
 - [ ] @l upload all previous work on this here 
-- [ ] @a @l finish tutorial/mini course that was started 
 - [ ] @l @a work on writing algo to decompose ts into trend and seasonality and testing if stationary 
 - [ ] @l run augmented dickie fuller test on sales data
 - [ ] @a build decomposition model fitting (SAS Proc ARIMA or Proc Autoreg) using "Preliminary" Slides p.44-46
 
 # In Progress 
 
-- [ ] @l upload books/references to `references` folder
+- [ ] @a @l finish tutorial/mini course that was started 
 
 # Done 
 
+- [x] @l upload books/references to `references` folder
 
 # For the Future 
 

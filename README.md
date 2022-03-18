@@ -15,11 +15,14 @@ Part of the Homebrew Learning Club
 
 # In Progress 
 
-- [ ] @a @l finish tutorial/mini course that was started 
+- [ ] @l finish tutorial/mini course that was started 
+- [ ] @a EDA on kaggle datasets 
+- [ ] @a Improve current kaggle competition score of 0.5109
 
 # Done 
 
 - [x] @l upload books/references to `references` folder
+- [x] @a finish tutorial
 
 # For the Future 
 
